@@ -4,9 +4,9 @@ body {
     height: auto;
 }
 h1 {
-    background-color: rgb(165, 41, 165);
+    background-color: rgb(193, 35, 233);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: whitesmoke;
+    color: rgb(245, 235, 241);
     margin: 0;
     height: 720px;
     width: auto;
@@ -45,26 +45,14 @@ a {
     width: 450px;
     padding-top: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
 }
 
-
-    
-
-
-.header1 {
-    width: 50%; 
-    height: 100px; 
-    float: left; 
-    
-}
-.text1 {
-    width: 50%; 
-    height: 100px; 
-    float: right; 
-    padding-top: 20px;
-    padding-left: 20px;
+.awesome {
+    font-size: 55px;
+    padding-bottom: 20px;
+    padding-top: 60px;
 }
 
 h2 {
@@ -75,11 +63,11 @@ h2 {
 
 p {
     margin-top: 0;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 button {
-    background-color: darkblue;
+    background-color: rgb(213, 94, 236);
     color: white;
     font-size: 20px;
     width: 150px;
@@ -89,8 +77,10 @@ button {
 }
 
 .midhigh {
-    
-    padding: 20px 50px 25px 50px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 150px 25px 150px; 
 }
 
 .part3 {
@@ -100,7 +90,7 @@ button {
 }
 
 h2 {
-    background-color: aliceblue;
+    background-color: rgb(241, 139, 241);
     font-size: 32px;
     text-align: center;
     font: black;
@@ -139,7 +129,7 @@ h2 .container {
 
 .boxes img {
     width: 150px;
-    height: auto;
+    height: 150px;
 
 }
 
@@ -153,7 +143,7 @@ h2 .container {
 }
 
 .pic1 p {
-    color: chocolate;
+    color: rgb(210, 30, 45);
     padding-top: 10px;
 }
 
@@ -168,7 +158,7 @@ h2 .container {
 }
 
 .pic2 p {
-    color: chocolate;
+    color: rgb(171, 243, 5);
     padding-top: 10px;
 }
 
@@ -183,7 +173,7 @@ h2 .container {
 }
 
 .pic3 p {
-    color: chocolate;
+    color: rgb(140, 177, 247);
     padding-top: 10px;    
 }
 
@@ -198,14 +188,14 @@ h2 .container {
 }
 
 .pic4 p {
-    color: chocolate;
+    color: rgb(75, 7, 102);
     padding-top: 10px;
 }
 
 h3 {
     height: 500px;
     margin: 0;
-    background-color: lightcyan;
+    background-color: rgb(255, 25, 205);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -255,10 +245,10 @@ h4 .container {
     align-items: center;
     width: 920px;
     height: 150px;
-    background-color: cornflowerblue;
+    background-color: rgb(245, 56, 229);
     border-style: solid;
     border-radius: 10px;
-    border-color: navy;
+    border-color: rgb(101, 20, 109);
     padding-right: 120px;
     
 }
@@ -277,9 +267,9 @@ h4 button {
 
 footer {
     height: 80px;
-    background-color: darkcyan;
+    background-color: rgb(139, 0, 104);
     text-align: center;
     padding-top: 28px;
     font-size: 28px;
-    color: beige;
+    color: rgb(235, 206, 232);
 }
