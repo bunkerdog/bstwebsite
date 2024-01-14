@@ -57,7 +57,14 @@ a {
     width: 50%; 
     height: 100px; 
     float: left; 
-    background: green;
+    
+}
+.text1 {
+    width: 50%; 
+    height: 100px; 
+    float: right; 
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 h2 {
