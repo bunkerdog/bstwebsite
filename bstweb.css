@@ -49,12 +49,15 @@ a {
     
 }
 
-.awesome {
-    font-size: 55px;
-    padding-bottom: 20px;
-    padding-top: 60px;
+
     
 
+
+.header1 {
+    width: 50%; 
+    height: 100px; 
+    float: left; 
+    background: green;
 }
 
 h2 {
